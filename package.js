@@ -10,7 +10,7 @@ Package.onUse(function(api) {
 	api.use(['ui'], 'client');
 	api.use(['blaze'], 'client');
 	api.use(['templating'], 'client');
-	api.use('alisalaah:suncalc', 'client');
+	api.use('alisalaah:suncalc@2.0.1', 'client');
 	
     api.add_files("praycalc.js", "client");
 });
